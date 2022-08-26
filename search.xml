@@ -104,6 +104,30 @@
       </tags>
   </entry>
   <entry>
+    <title>Hello World</title>
+    <url>/2019/11/30/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>aaa</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>react项目接入单测</title>
     <url>/2020/08/30/react%E9%A1%B9%E7%9B%AE%E6%8E%A5%E5%85%A5%E5%8D%95%E6%B5%8B/</url>
     <content><![CDATA[<h4 id="1-npm包依赖项配置"><a href="#1-npm包依赖项配置" class="headerlink" title="1. npm包依赖项配置"></a>1. npm包依赖项配置</h4><figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// 引入jest</span></span><br><span class="line">npm install jest@<span class="number">26.6</span><span class="number">.3</span> -D</span><br><span class="line"></span><br><span class="line"><span class="comment">// 接入bamboo使用，不接入可不引入</span></span><br><span class="line">npm install jest-bamboo-reporter -D </span><br><span class="line"></span><br><span class="line"><span class="comment">// 输出报告</span></span><br><span class="line">npm install jest-html-reporter -D</span><br><span class="line"></span><br><span class="line"><span class="comment">// Enzyme 是一个用于 React 的 JavaScript 测试实用程序，可以更轻松地测试 React 组件的输出</span></span><br><span class="line">npm install enzyme enzyme-adapter-react-<span class="number">16</span> -D</span><br><span class="line"></span><br><span class="line"><span class="comment">// 使用babel</span></span><br><span class="line">npm i babel-jest @babel/core @babel/preset-env</span><br><span class="line"></span><br></pre></td></tr></table></figure>
@@ -251,30 +275,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2019/11/30/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>前端</category>
-      </categories>
-      <tags>
-        <tag>aaa</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>高精度还原设计稿</title>
     <url>/2020/02/15/%E9%AB%98%E7%B2%BE%E5%BA%A6%E8%BF%98%E5%8E%9F%E8%AE%BE%E8%AE%A1%E7%A8%BF/</url>
     <content><![CDATA[<h3 id="一-适配与还原"><a href="#一-适配与还原" class="headerlink" title="一. 适配与还原"></a>一. 适配与还原</h3><p>适配的目的是为保证用户体验，比如图片不失真、以及在不同大小的屏幕上呈现比例相同的页面布局，这也就是所谓的百分之百还原设计稿，或像素级还原设计稿。</p>
@@ -338,11 +338,8 @@
 <td align="center"></td>
 <td align="left"></td>
 </tr>
-<tr>
-<td align="center">一个常用的针对移动网页优化过的页面的 viewport meta 标签大致如下：</td>
-<td align="left"></td>
-</tr>
 </tbody></table>
+<p>一个常用的针对移动网页优化过的页面的 viewport meta 标签大致如下：</p>
 <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> </span></span><br><span class="line"><span class="tag">  <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> </span></span><br><span class="line"><span class="tag">  <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&lt;!--我们项目中的viewport如下 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span></span></span><br><span class="line"><span class="tag">  <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span></span></span><br><span class="line"><span class="tag">  <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no, viewport-fit=cover&quot;</span></span></span><br><span class="line"><span class="tag">/&gt;</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="三-几种适配方案："><a href="#三-几种适配方案：" class="headerlink" title="三. 几种适配方案："></a>三. 几种适配方案：</h3><h5 id="1-百分比适配"><a href="#1-百分比适配" class="headerlink" title="1. 百分比适配"></a>1. 百分比适配</h5><p>利用%单位来实现移动端适配，每个元素的大小都相对于父元素的大小利用百分比的单位来实现，使用来定义子元素的宽度。</p>
